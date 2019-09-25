@@ -11,8 +11,9 @@
 }
 
 .jumbotron {
-    /* background-color: var(--primary); */
     background-image: linear-gradient(#156c9f, var(--primary));
+    /* Lighter blue gradient */
+    /* background-image: linear-gradient(var(--primary), #bde1f6); */
     color: var(--white);
     margin: 0 auto;
 }
