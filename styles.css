@@ -1,0 +1,36 @@
+:root {
+    --primary: #32B1E4;
+    --accent: #FF8000;
+    --dk-gray: #334C56;
+    --lt-gray: #F9FBFC;
+    --white: #ffffff;
+}
+
+.jumbotron {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* .masthead {
+    background-color: var(--primary);
+} */
+
+h1, h2 {
+    font-weight: normal;
+}
+
+hr {
+    border: 2px solid var(--accent);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: -2px 1px 2px var(--dk-gray);
+}
+
+.icon-style {
+    background-color: var(--white);
+    padding: 6px;
+    border-radius: 30px;
+    color: var(--accent);
+    margin: 10px 5px;
+    box-shadow: -2px 1px 5px var(--dk-gray);
+}
