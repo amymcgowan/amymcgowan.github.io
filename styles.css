@@ -16,6 +16,9 @@
     /* background-image: linear-gradient(var(--primary), #bde1f6); */
     color: var(--white);
     margin: 0 auto;
+    /* Texture option */
+    /* background-color: var(--primary);
+    background-image: url("https://www.transparenttextures.com/patterns/white-wall-3.png"); */
 }
 
  .jumbotron-fluid {
@@ -43,7 +46,7 @@ hr {
 .icon-style {
     background-color: var(--white);
     padding: 6px;
-    border-radius: 30px;
+    border-radius: 50%;
     color: var(--accent);
     margin: 10px 5px;
     box-shadow: -2px 1px 5px var(--dk-gray);
@@ -64,3 +67,4 @@ hr {
 .navbar-nav a:hover {
     color: var(--accent);
 }
+
