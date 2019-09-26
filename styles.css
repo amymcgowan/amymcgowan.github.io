@@ -6,10 +6,27 @@
     --white: #ffffff;
 }
 
-.jumbotron {
-    background-color: var(--primary);
-    color: var(--white);
+.bg-primary {
+    background-color: var(--primary) !important;
 }
+
+.jumbotron {
+    background-image: linear-gradient(#156c9f, var(--primary));
+    /* Lighter blue gradient */
+    /* background-image: linear-gradient(var(--primary), #bde1f6); */
+    color: var(--white);
+    margin: 0 auto;
+    /* Texture option */
+    /* background-color: var(--primary);
+    background-image: url("https://www.transparenttextures.com/patterns/white-wall-3.png"); */
+}
+
+ .jumbotron-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
 
 /* .masthead {
     background-color: var(--primary);
@@ -20,7 +37,7 @@ h1, h2 {
 }
 
 hr {
-    border: 2px solid var(--accent);
+    border: 1px solid var(--accent);
     margin-top: 8px;
     margin-bottom: 8px;
     box-shadow: -2px 1px 2px var(--dk-gray);
@@ -29,8 +46,25 @@ hr {
 .icon-style {
     background-color: var(--white);
     padding: 6px;
-    border-radius: 30px;
+    border-radius: 50%;
     color: var(--accent);
     margin: 10px 5px;
     box-shadow: -2px 1px 5px var(--dk-gray);
 }
+
+.navbar-brand {
+    color: var(--white);
+}
+
+.navbar-brand:hover {
+    color: var(--accent);
+}
+
+.navbar-nav a {
+    color: var(--white);
+}
+
+.navbar-nav a:hover {
+    color: var(--accent);
+}
+
