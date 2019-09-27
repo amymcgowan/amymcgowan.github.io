@@ -10,6 +10,14 @@
     background-color: var(--primary) !important;
 }
 
+.text-dark {
+    color: var(--dk-gray);
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
 .jumbotron {
     background-image: linear-gradient(#156c9f, var(--primary));
     /* Lighter blue gradient */
@@ -81,3 +89,7 @@ hr {
     color: var(--accent);
 }
 
+#about img {
+    margin: auto;
+    object-fit: contain;
+}
