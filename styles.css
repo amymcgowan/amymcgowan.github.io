@@ -88,8 +88,3 @@ hr {
 .navbar-nav a:hover {
     color: var(--accent);
 }
-
-/* #about img {
-    margin: auto;
-    object-fit: contain;
-} */
