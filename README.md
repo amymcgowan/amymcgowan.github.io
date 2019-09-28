@@ -13,3 +13,5 @@
 - [git stash](https://stackoverflow.com/questions/8085838/how-to-move-the-changes-from-one-branch-to-another-branch-git) is helpful
 - A border-radius of 50% can make a circle
 - Figuring out exactly how to override default bootstrap can get very frustrating
+- [This is a really great article](https://app.getpocket.com/read/1247138368) for finding a color palette, especially for finding which coordinating grays to use (I used Figma for that part). 
+- My favorite color sites to use are [colorhexa.com](https://www.colorhexa.com/) and [colorbook.io](https://www.colorbook.io/)
