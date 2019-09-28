@@ -122,3 +122,10 @@ hr {
 
 }
 
+.btn-submit {
+    letter-spacing: .1rem;
+    font-weight: 600;
+    box-shadow: -1px 1px 3px var(--dk-gray);
+
+
+}

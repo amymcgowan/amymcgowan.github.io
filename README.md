@@ -15,4 +15,4 @@
 - Figuring out exactly how to override default bootstrap can get very frustrating
 - [This is a really great article](https://app.getpocket.com/read/1247138368) for finding a color palette, especially for finding which coordinating grays to use (I used Figma for that part). 
 - My favorite color sites to use are [colorhexa.com](https://www.colorhexa.com/) and [colorbook.io](https://www.colorbook.io/)
-- `class="d-flex justify-content-around"` is perfect for spacing the buttons below each project screenshot
+- `class="d-flex justify-content-around"` is perfect for spacing the buttons below each project screenshot AND for equally spacing individual publication pieces (it also centers element on the page when it's only one wide)
