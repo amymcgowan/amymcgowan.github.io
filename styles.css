@@ -117,4 +117,8 @@ hr {
     box-shadow: -2px 1px 5px var(--dk-gray);
 }
 
+.pub-card {
+    border: 2px solid var(--primary);
+
+}
 
