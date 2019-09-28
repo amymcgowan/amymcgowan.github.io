@@ -19,25 +19,27 @@
             <h1 class="display-4 mt-5 mb-3">Amy McGowan</h1>
             <hr width="10%">
             <h2 class="my-3">Hi. I like to code things.</h2>
-            <a class="btn-social" href="https://www.linkedin.com/in/amy-mcgowan">
-                <i class="fab fa-linkedin icon-style" aria-hidden="true"></i><span class="sr-only">LinkedIn</span>
-            </a>
-            <a class="btn-social" href="https://github.com/amymcgowan">
-                <i class="fab fa-github icon-style" aria-hidden="true"></i><span class="sr-only">Github</span>
-            </a>
-            <a class="btn-social" href="https://twitter.com/_amymcgowan">
-                <i class="fab fa-twitter icon-style" aria-hidden="true"></i><span class="sr-only">Twitter</span>
-            </a>
-            <a class="btn-social" href="mailto: amymcgowan_dev@gmail.com">
-                <i class="far fa-envelope icon-style" aria-hidden="true"></i><span class="sr-only">Email</span>
-            </a>
+            <div class="social-icons">
+                <a class="btn-social" href="https://www.linkedin.com/in/amy-mcgowan">
+                    <i class="fab fa-linkedin icon-style" aria-hidden="true"></i><span class="sr-only">LinkedIn</span>
+                </a>
+                <a class="btn-social" href="https://github.com/amymcgowan">
+                    <i class="fab fa-github icon-style" aria-hidden="true"></i><span class="sr-only">Github</span>
+                </a>
+                <a class="btn-social" href="https://twitter.com/_amymcgowan">
+                    <i class="fab fa-twitter icon-style" aria-hidden="true"></i><span class="sr-only">Twitter</span>
+                </a>
+                <a class="btn-social" href="mailto: amymcgowan_dev@gmail.com">
+                    <i class="far fa-envelope icon-style" aria-hidden="true"></i><span class="sr-only">Email</span>
+                </a>
+            </div>
         </div>
     </div>
 
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md sticky-top bg-primary text-uppercase">
-        <!-- <div class="container"> -->
+        <div class="container">
             <a class="navbar-brand" href="#">Amy McGowan</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +61,7 @@
                     </li>
                 </ul>
             </div>
-        <!-- </div> -->
+        </div>
     </nav>
     
     <!-- About -->
@@ -109,10 +111,10 @@
                     <img class="shadow card-img-top" src="/assets/mcgowan-newsletter-img.png" width="100%">
                     <div class="card-body">
                         <div class="d-flex justify-content-around">
-                            <a href="https://github.com/andreamartz/Email-Newsletter" class="btn btn-project text-white bg-primary text-uppercase"><span><i
-                                        class="fab fa-github text-dark mr-1"></i></span>Github</a>
-                            <a href="https://andreamartz.github.io/Email-Newsletter/" class="btn btn-project text-white bg-primary text-uppercase"><span><i
-                                        class="fas fa-globe text-dark mr-1"></i></span>Website</a>
+                            <a href="https://github.com/andreamartz/Email-Newsletter" class="btn btn-style text-dark bg-white text-uppercase"><span><i
+                                        class="fab fa-github text-accent mr-1"></i></span>Github</a>
+                            <a href="https://andreamartz.github.io/Email-Newsletter/" class="btn btn-style text-dark bg-white text-uppercase"><span><i
+                                        class="fas fa-globe text-accent mr-1"></i></span>Website</a>
                         </div>
                     </div>
                 </div>
@@ -245,7 +247,7 @@
                                 <textarea type="text" class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-submit text-dark">Send<i class="fas fa-paper-plane text-accent ml-1"></i></button>
+                        <button type="submit" class="btn btn-style bg-white text-dark">Send<i class="fas fa-paper-plane text-accent ml-1"></i></button>
                     </form>
                 </div>
             </div>
@@ -254,8 +256,25 @@
 
 
     <!-- Footer -->
-    <footer>
-
+    <footer class="section bg-primary" id="footer">
+        <div class="container text-center">
+            <a href="#"><i class="fas fa-chevron-up text-dark mb-2"></i></a>
+            <div class="social-icons mb-3">
+                <a class="btn-social" href="https://www.linkedin.com/in/amy-mcgowan">
+                    <i class="fab fa-linkedin icon-style" aria-hidden="true"></i><span class="sr-only">LinkedIn</span>
+                </a>
+                <a class="btn-social" href="https://github.com/amymcgowan">
+                    <i class="fab fa-github icon-style" aria-hidden="true"></i><span class="sr-only">Github</span>
+                </a>
+                <a class="btn-social" href="https://twitter.com/_amymcgowan">
+                    <i class="fab fa-twitter icon-style" aria-hidden="true"></i><span class="sr-only">Twitter</span>
+                </a>
+                <a class="btn-social" href="mailto: amymcgowan_dev@gmail.com">
+                    <i class="far fa-envelope icon-style" aria-hidden="true"></i><span class="sr-only">Email</span>
+                </a>
+            </div>
+            <small>Copyright <i class="far fa-copyright"></i> 2019 Amy McGowan</small>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

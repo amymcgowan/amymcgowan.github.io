@@ -68,14 +68,18 @@ hr {
     box-shadow: -2px 1px 2px var(--dk-gray);
 }
 
+
 .icon-style {
     background-color: var(--white);
-    padding: 6px;
+    padding: .5rem;
     border-radius: 50%;
     color: var(--accent);
     margin: 10px 5px;
     box-shadow: -2px 1px 5px var(--dk-gray);
+    font-size: 1.4rem;
 }
+
+
 
 .navbar-brand {
     color: var(--white);
@@ -110,11 +114,11 @@ hr {
     text-align: center;
 }
 
-.btn-project {
+.btn-style {
     /* border: 1px solid var(--accent); */
     letter-spacing: .1rem;
     font-weight: 600;
-    box-shadow: -2px 1px 5px var(--dk-gray);
+    box-shadow: -1px 1px 3px var(--dk-gray);
 }
 
 .pub-card {
@@ -122,10 +126,3 @@ hr {
 
 }
 
-.btn-submit {
-    letter-spacing: .1rem;
-    font-weight: 600;
-    box-shadow: -1px 1px 3px var(--dk-gray);
-
-
-}
