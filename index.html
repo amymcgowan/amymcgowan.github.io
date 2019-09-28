@@ -12,7 +12,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body data-spy="scroll" data-target="#navbar">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Header Banner  -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
@@ -38,7 +38,7 @@
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md sticky-top bg-primary text-uppercase" id="navbar">
+    <nav class="navbar navbar-expand-md sticky-top bg-primary text-uppercase">
         <!-- <div class="container"> -->
             <a class="navbar-brand" href="#">Amy McGowan</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -65,7 +65,7 @@
     </nav>
     
     <!-- About -->
-    <section id="about">
+    <section class="section" id="about">
         <div class="container text-dark mb-5">
             <h2 class="text-center my-5 text-uppercase">About</h2>
             <div class="row">
@@ -85,22 +85,54 @@
     <!-- Skills -->
     <section>
         <div class="container-fluid text-center text-white bg-primary">
-            <!-- <i class="icon-git"></i> -->
-            <i class="skill-icon fab fa-git-alt"></i>
+            <!-- <i class="skill-icon fab fa-git-alt"></i> -->
+            <i class="skill-icon icon-git"></i>
             <i class="skill-icon fab fa-github"></i>
-            <i class="skill-icon fab fa-html5"></i>
-            <i class="skill-icon fab fa-css3-alt"></i>
+            <!-- <i class="skill-icon fab fa-html5"></i> -->
+            <i class="skill-icon icon-html5-alt"></i>
+            <!-- <i class="skill-icon fab fa-css3-alt"></i> -->
+            <i class="skill-icon icon-css3-alt"></i>
             <!-- <i class="fab `fa-js"></i> -->
             <i class="skill-icon icon-javascript-alt"></i>
             <i class="skill-icon icon-ruby"></i>
             <i class="skill-icon icon-ruby-on-rails"></i>
-            <!-- <i class="icon-python"></i> -->
-            <i class="skill-icon fab fa-python"></i>
+            <i class="skill-icon icon-python"></i>
+            <!-- <i class="skill-icon fab fa-python"></i> -->
         </div>
     </section>
     
+    <!-- Portfolio -->
+    <section class="section" id="portfolio">
+        <div class="container text-dark mb-5">
+            <h2 class="text-center my-5 text-uppercase">Portfolio</h2>
+            <!-- Project 1 -->
+            <div class="card-deck">
+                <div class="card border-0">
+                    <img class="shadow card-img-top" src="/assets/mcgowan-newsletter-img.png" width="100%">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-around">
+                            <a href="https://github.com/andreamartz/Email-Newsletter" class="btn btn-project text-white bg-primary text-uppercase"><span><i
+                                        class="fab fa-github text-dark mr-1"></i></span>Github</a>
+                            <a href="https://andreamartz.github.io/Email-Newsletter/" class="btn btn-project text-white bg-primary text-uppercase"><span><i
+                                        class="fas fa-globe text-dark mr-1"></i></span>Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h3 class="card-title">HTML Newsletter</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae felis ligula. Pellentesque a neque enim.
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Mauris a
+                        turpis rutrum, pretium tellus vel, porttitor nisl. Suspendisse aliquam ante tristique lectus consequat, laoreet sodales
+                        sapien vestibulum. Nullam egestas nibh vitae bibendum viverra. Sed sem libero, auctor non nibh sed, convallis vehicula
+                        magna.</p>
+                        <p class="card-text">Technologies used: HTML, CSS, Figma, Git, Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    
     
 
 
