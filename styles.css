@@ -126,3 +126,6 @@ hr {
 
 }
 
+footer {
+    background-image: linear-gradient(var(--primary), #156c9f);
+}
