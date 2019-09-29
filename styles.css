@@ -30,6 +30,10 @@ body {
     padding-top: 20px;
 }
 
+a, a:hover, a:active a:visited, a:focus {
+    text-decoration: none;
+}
+
 /* ------------ HEADER ------------ */
 .jumbotron {
     background-image: linear-gradient(#156c9f, var(--primary));
@@ -96,7 +100,7 @@ hr {
     color: var(--accent);
 }
 
-/* .hamburger {
+/* .navbar-toggler-icon {
     color: var(--white);
 } */
 
