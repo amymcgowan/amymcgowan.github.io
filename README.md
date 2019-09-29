@@ -19,3 +19,4 @@
 - I kept getting mysterious little lines in between my social links on hover.  Turns out it was the underline text-decoration from the <a> tag.  Just [add a CSS declaration](https://stackoverflow.com/questions/27989672/why-is-link-underline-appearing-after-clicking-the-link) for all anchor states to have no text-decoration. voila!
 - When setting a circular background/border behind a FA icon, the [width, height, and alignment need to be set](https://markheath.net/post/font-awesome-circle-background) in order to get an actual circle.
 - To get skill icons to stack at smaller breakpoints, I separated them into two columns within a grid and then justified text left/right and adjusted padding to get them line up in a single row at larger breakpoints.
+- The projects stack at smaller breakpoints, but they kinda looked like they ran together.  I figured out how to put an hr tag between the projects and then make it stop displaying at larger sizes.
