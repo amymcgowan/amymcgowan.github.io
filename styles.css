@@ -30,7 +30,7 @@ body {
     padding-top: 20px;
 }
 
-a, a:hover, a:active a:visited, a:focus {
+a, a:hover, a:active a:visited, a:focus, a:link {
     text-decoration: none;
 }
 
@@ -132,6 +132,7 @@ hr {
     border-radius: 50%;
     border: 2px solid var(--white);
     text-align: center;
+    vertical-align: middle;
     width: 50px;
     height: 50px;
 }

@@ -16,4 +16,6 @@
 - [This is a really great article](https://app.getpocket.com/read/1247138368) for finding a color palette, especially for finding which coordinating grays to use (I used Figma for that part). 
 - My favorite color sites to use are [colorhexa.com](https://www.colorhexa.com/) and [colorbook.io](https://www.colorbook.io/)
 - `class="d-flex justify-content-around"` is perfect for spacing the buttons below each project screenshot AND for equally spacing individual publication pieces (it also centers element on the page when it's only one wide)
-- I kept getting mysterious little lines in between my social links on hover.  Turns out it was the underline text-decoration from the <a> tag.  Just did a CSS declaration for all anchor states to have no text-decoration. voila!
+- I kept getting mysterious little lines in between my social links on hover.  Turns out it was the underline text-decoration from the <a> tag.  Just [add a CSS declaration](https://stackoverflow.com/questions/27989672/why-is-link-underline-appearing-after-clicking-the-link) for all anchor states to have no text-decoration. voila!
+- When setting a circular background/border behind a FA icon, the [width, height, and alignment need to be set](https://markheath.net/post/font-awesome-circle-background) in order to get an actual circle.
+- To get skill icons to stack at smaller breakpoints, I separated them into two columns within a grid and then justified text left/right and adjusted padding to get them line up in a single row at larger breakpoints.
