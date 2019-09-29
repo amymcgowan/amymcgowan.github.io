@@ -96,9 +96,9 @@ hr {
     color: var(--accent);
 }
 
-.hamburger {
+/* .hamburger {
     color: var(--white);
-}
+} */
 
 .navbar-nav a {
     color: var(--white);
@@ -107,6 +107,18 @@ hr {
 .navbar-nav a:hover {
     color: var(--accent);
 }
+
+/* Trying to fix scrollspy navbar colors... */
+/* .navbar-nav > .active{
+    color: #000;
+    background: #d65c14;
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    color: #000;
+    background: #d65c14;
+} */
 
 /* ------------ ABOUT (+ FOOTER) ------------ */
 .skill-icon {
@@ -119,7 +131,7 @@ hr {
 }
 
 .btn-style {
-    /* border: 1px solid var(--accent); */
+    border: 1px solid var(--primary);
     letter-spacing: .1rem;
     font-weight: 600;
     box-shadow: -1px 1px 3px var(--dk-gray);
