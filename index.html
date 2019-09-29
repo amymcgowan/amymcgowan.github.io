@@ -38,7 +38,7 @@
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md sticky-top bg-primary text-uppercase">
+    <nav class="navbar navbar-expand-md sticky-top bg-primary text-uppercase" id="navbarNav">
         <div class="container">
             <a class="navbar-brand" href="#">Amy McGowan</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -47,7 +47,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-2 active">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item mx-2">
@@ -106,7 +106,7 @@
         <div class="container text-dark mb-5">
             <h2 class="text-center my-5 text-uppercase">Portfolio</h2>
             <!-- Project 1 -->
-            <div class="card-deck">
+            <div class="card-deck my-5">
                 <div class="card border-0">
                     <img class="shadow card-img-top" src="/assets/mcgowan-newsletter-img.png" width="100%">
                     <div class="card-body">
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div class="card border-0">
-                    <div class="card-body">
+                    <div class="card-body pt-0">
                         <h3 class="card-title">HTML Newsletter</h3>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae felis ligula. Pellentesque a neque enim.
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Mauris a
@@ -127,6 +127,38 @@
                         sapien vestibulum. Nullam egestas nibh vitae bibendum viverra. Sed sem libero, auctor non nibh sed, convallis vehicula
                         magna.</p>
                         <p class="card-text">Technologies used: HTML, CSS, Figma, Git, Github</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="card-deck my-5">
+                <div class="card border-0 order-sm-12">
+                    <img class="shadow card-img-top" src="/assets/mcgowan-newsletter-img.png" width="100%">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-around">
+                            <a href="https://github.com/amymcgowan/amymcgowan.github.io"
+                                class="btn btn-style text-dark bg-white text-uppercase"><span><i
+                                        class="fab fa-github text-accent mr-1"></i></span>Github</a>
+                            <a href="#"
+                                class="btn btn-style text-dark bg-white text-uppercase"><span><i
+                                        class="fas fa-globe text-accent mr-1"></i></span>Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0 order-sm-1">
+                    <div class="card-body pt-0">
+                        <h3 class="card-title">Portfolio Website</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae felis ligula.
+                            Pellentesque a neque enim.
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla
+                            facilisi. Mauris a
+                            turpis rutrum, pretium tellus vel, porttitor nisl. Suspendisse aliquam ante tristique lectus consequat,
+                            laoreet sodales
+                            sapien vestibulum. Nullam egestas nibh vitae bibendum viverra. Sed sem libero, auctor non nibh sed,
+                            convallis vehicula
+                            magna.</p>
+                        <p class="card-text">Technologies used: HTML, CSS, JavaScript, Figma, Bootstrap, Git, Github</p>
                     </div>
                 </div>
             </div>
@@ -178,7 +210,7 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-xs-12">
                     <div class="container pub-card shadow m-2 mx-auto">
-                        <img class="shadow mt-3 img-fluid" src="/assets/pub-place-holder.png" style="width: 100%, height: auto">
+                        <img class="shadow mt-3 img-fluid" src="/assets/pub-place-holder.png" style="width: 100%; height: auto">
                         <div class="pub-text">
                             <h5 class="pub-title my-3">Blog title bloopity blah</h5>
                             <p class="text-muted "><i class="fas fa-globe text-accent mr-1"></i> Moms Can & Co Blog</p>
@@ -190,7 +222,7 @@
                 </div>
                 <div class="col-xs-12">
                     <div class="container pub-card shadow m-2 mx-auto">
-                        <img class="shadow mt-3 img-fluid" src="/assets/pub-place-holder.png" style="width: 100%, height: auto">
+                        <img class="shadow mt-3 img-fluid" src="/assets/pub-place-holder.png" style="width: 100%; height: auto">
                         <div class="pub-text">
                             <h5 class="pub-title my-3">Blog title bloopity blah</h5>
                             <p class="text-muted "><i class="fas fa-globe text-accent mr-1"></i> Moms Can & Co Blog</p>
@@ -202,7 +234,7 @@
                 </div>
                 <div class="col-xs-12">
                     <div class="container pub-card shadow m-2 mx-auto">
-                        <img class="shadow mt-3 img-fluid" src="/assets/pub-place-holder.png" style="width: 100%, height: auto">
+                        <img class="shadow mt-3 img-fluid" src="/assets/pub-place-holder.png" style="width: 100%; height: auto">
                         <div class="pub-text">
                             <h5 class="pub-title my-3">Blog title bloopity blah</h5>
                             <p class="text-muted "><i class="fas fa-globe text-accent mr-1"></i> Moms Can & Co Blog</p>
@@ -218,7 +250,7 @@
 
     <!-- Contact -->
     <section class="section" id="contact">
-        <div class="container text-dark mb-5">
+        <div class="container text-dark mb-5 pb-3">
             <h2 class="text-center my-5 text-uppercase">Contact</h2>
             <div class="row">
                 <div class="col-lg-3 ml-auto my-auto">
@@ -247,7 +279,7 @@
                                 <textarea type="text" class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-style bg-white text-dark">Send<i class="fas fa-paper-plane text-accent ml-1"></i></button>
+                        <button type="submit" class="btn btn-style bg-white text-dark text-uppercase">Send<i class="fas fa-paper-plane text-accent ml-1"></i></button>
                     </form>
                 </div>
             </div>
@@ -256,8 +288,8 @@
 
 
     <!-- Footer -->
-    <footer class="section bg-primary" id="footer">
-        <div class="container text-center">
+    <footer class="section" id="footer">
+        <div class="container text-center pb-2">
             <a href="#"><i class="fas fa-chevron-up text-dark mb-2"></i></a>
             <div class="social-icons mb-3">
                 <a class="btn-social" href="https://www.linkedin.com/in/amy-mcgowan">

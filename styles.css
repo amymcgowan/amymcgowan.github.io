@@ -26,6 +26,11 @@ body {
     position: relative;
 }
 
+.section {
+    padding-top: 20px;
+}
+
+/* ------------ HEADER ------------ */
 .jumbotron {
     background-image: linear-gradient(#156c9f, var(--primary));
     /* Lighter blue gradient */
@@ -68,7 +73,6 @@ hr {
     box-shadow: -2px 1px 2px var(--dk-gray);
 }
 
-
 .icon-style {
     background-color: var(--white);
     padding: .5rem;
@@ -79,7 +83,10 @@ hr {
     font-size: 1.4rem;
 }
 
-
+/* ------------ NAVIGATION ------------ */
+.navbar {
+    letter-spacing: .1rem;
+}
 
 .navbar-brand {
     color: var(--white);
@@ -89,9 +96,9 @@ hr {
     color: var(--accent);
 }
 
-.hamburger {
+/* .hamburger {
     color: var(--white);
-}
+} */
 
 .navbar-nav a {
     color: var(--white);
@@ -101,10 +108,19 @@ hr {
     color: var(--accent);
 }
 
-.section {
-    padding-top: 20px;
+/* Trying to fix scrollspy navbar colors... */
+/* .navbar-nav > .active{
+    color: #000;
+    background: #d65c14;
 }
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    color: #000;
+    background: #d65c14;
+} */
 
+/* ------------ ABOUT (+ FOOTER) ------------ */
 .skill-icon {
     font-size: 1.75rem;
     padding: .6rem;
@@ -115,14 +131,19 @@ hr {
 }
 
 .btn-style {
-    /* border: 1px solid var(--accent); */
+    border: 1px solid var(--primary);
     letter-spacing: .1rem;
     font-weight: 600;
     box-shadow: -1px 1px 3px var(--dk-gray);
 }
 
+/* ------------ PUBLICATIONS ------------ */
+
 .pub-card {
     border: 2px solid var(--primary);
-
 }
 
+/* ------------ FOOTER ------------ */
+footer {
+    background-image: linear-gradient(var(--primary), #156c9f);
+}
