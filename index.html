@@ -69,7 +69,7 @@
         <div class="container text-dark mb-5">
             <h2 class="text-center my-5 text-uppercase">About</h2>
             <div class="row">
-                <div class="col-lg-5 ml-auto my-auto">
+                <div class="col-md-5 ml-auto my-auto">
                     <p>You had me at "Hello World!"</br></br>
                     From the moment I got my first real taste of the creativity, satisfaction, and
                     problem solving of coding, I knew I wanted to figure out how to make a career out of it.<br/><br/>  
@@ -78,8 +78,12 @@
                     to raise my goofy son while also engaging in a career I really enjoy.  I love to create things that 
                     are beautiful and useful and want to use code to make a positive and lasting impact in this world.</p>
                 </div>
-                <div class="col-lg-4 mr-auto">
+                <!-- Two different size images; longer one appears only at md breakpoint -->
+                <div class="col-md-4 mr-auto d-md-none d-lg-block">
                     <img class="shadow img-fluid" src="/assets/amy-mcgowan-about.png" width="100%">
+                </div>
+                <div class="col-md-4 mr-auto d-none d-md-block d-lg-none">
+                    <img class="shadow img-fluid" src="/assets/amy-mcgowan-about-long.png" width="100%">
                 </div>
             </div>
         </div>
