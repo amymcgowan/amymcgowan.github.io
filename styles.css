@@ -87,6 +87,14 @@ hr {
     font-size: 1.4rem;
 }
 
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-twitter:hover,
+.fa-envelope:hover {
+    color: var(--white);
+    background-color: var(--accent);
+}
+
 /* ------------ NAVIGATION ------------ */
 .navbar {
     letter-spacing: .1rem;
@@ -100,9 +108,27 @@ hr {
     color: var(--accent);
 }
 
-/* .navbar-toggler-icon {
+.navbar-toggler-icon {
     color: var(--white);
+    line-height: inherit;
+}
+
+.navbar-toggler-icon:hover {
+    color: var(--accent);
+}
+
+/* Try to get rid of purple halo around FA icon */
+/* .navbar-toggler:active,
+.navbar-toggler:visited,
+.navbar-toggler:focus {
+    border: none;
+    border-radius: 0;
 } */
+
+.fa-bars {
+    font-size: 1.4rem;
+    
+}
 
 .navbar-nav a {
     color: var(--white);
@@ -110,6 +136,7 @@ hr {
 
 .navbar-nav a:hover {
     color: var(--accent);
+    background-color: var(--white);
 }
 
 /* Trying to fix scrollspy navbar colors... */
