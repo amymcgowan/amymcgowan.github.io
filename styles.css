@@ -110,20 +110,20 @@ hr {
 
 .navbar-toggler-icon {
     color: var(--white);
-    line-height: inherit;
 }
 
 .navbar-toggler-icon:hover {
     color: var(--accent);
 }
 
-/* Try to get rid of purple halo around FA icon */
-/* .navbar-toggler:active,
-.navbar-toggler:visited,
-.navbar-toggler:focus {
+button:focus {
+    outline: none;
+}
+
+.navbar-toggler {
     border: none;
-    border-radius: 0;
-} */
+    line-height: inherit;
+}
 
 .fa-bars {
     font-size: 1.4rem;
