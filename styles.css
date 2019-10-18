@@ -177,9 +177,30 @@ button:focus {
 
 .pub-card {
     border: 2px solid var(--primary);
+    max-width: 300px;
+    min-height: 375px;
+}
+
+.pub-title {
+    min-height: 48px;
+}
+
+.pub-link {
+    color: var(--primary);
+}
+
+.pub-link:hover {
+    color: var(--accent);
 }
 
 /* ------------ FOOTER ------------ */
 footer {
     background-image: linear-gradient(var(--primary), #156c9f);
+}
+
+.fa-chevron-up {
+    color: var(--dk-gray);
+}
+.fa-chevron-up:hover {
+    color: var(--white);
 }
