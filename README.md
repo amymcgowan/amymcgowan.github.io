@@ -26,3 +26,10 @@ The original wireframe was built using Figma.
 - To get skill icons to stack at smaller breakpoints, I separated them into two columns within a grid and then justified text left/right and adjusted padding to get them line up in a single row at larger breakpoints.
 - The projects stack at smaller breakpoints, but they kinda looked like they ran together.  I figured out how to put an hr tag between the projects and then make it stop displaying at larger sizes.
 - At medium breakpoint in About section, the img was either huge (stacked) or very small with a lot of white space (inline).  To make it look a bit better, I created a new longer version of the img and set it in a separate identical div.  I then set it so that the original img would appear at all breakpoints except md, when the longer img would appear instead.
+- I use the github FA icon in a few places, only one of which I want to have a hover effect.  but .fa-github class with a hover selector was causing the other places to change on hover too.  For those that I wanted to remain static, I created a separate class called .github-static with a property of pointer-events: none; ... all fixed!
+- Some blog titles are longer than other, causing the card to be longer too.  I set a min length for the title section (and a min height and max width for the card itself for a little extra precision).
+- 
+
+## Image sizes
+- Blog preview 260x200
+- Project screenshot 500x350
