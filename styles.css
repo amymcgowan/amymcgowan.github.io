@@ -168,9 +168,27 @@ button:focus {
 
 .btn-style {
     border: 1px solid var(--primary);
-    letter-spacing: .1rem;
+    letter-spacing: .07rem;
     font-weight: 600;
     box-shadow: -1px 1px 3px var(--dk-gray);
+    font-size: .8rem;
+    background-color: var(--white);
+    color: var(--dk-gray);
+}
+
+.btn-style span {
+    font-size: 1rem;
+    color: var(--accent);
+}
+
+.btn-style:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* ------------ SKILLS (+ PORTFOLIO) ------------ */
+.github-static {
+    pointer-events: none;
 }
 
 /* ------------ PUBLICATIONS ------------ */
@@ -193,6 +211,11 @@ button:focus {
     color: var(--accent);
 }
 
+/* ------------ CONTACT ------------ */
+.btn-submit {
+    font-size: 1.0rem;
+}
+
 /* ------------ FOOTER ------------ */
 footer {
     background-image: linear-gradient(var(--primary), #156c9f);
@@ -204,3 +227,4 @@ footer {
 .fa-chevron-up:hover {
     color: var(--white);
 }
+
