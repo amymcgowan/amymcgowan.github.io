@@ -7,7 +7,11 @@ The original wireframe was built using Figma.
 
 <img src="./assets/wireframe.png" height="250px" align="center">
 
-# Things I've learned
+## Imitation is the highest form of flattery
+I have spotted that my code for this site has been borrowed and adapted by a fellow coder.  I'm flattered. :D
+- [https://winerock.github.io/portfolio/](https://winerock.github.io/portfolio/)
+
+## Things I've learned
 - Subtle [CSS gradients](https://www.w3schools.com/css/css3_gradients.asp) create a really nice effect.
 - Creating CSS variables is really helpful, especially when not 100% set on a color palette.
 - Ruby icons don't exist in Font Awesome, but they do exist in [Font Mfizz](http://fizzed.com/oss/font-mfizz)
@@ -28,8 +32,9 @@ The original wireframe was built using Figma.
 - At medium breakpoint in About section, the img was either huge (stacked) or very small with a lot of white space (inline).  To make it look a bit better, I created a new longer version of the img and set it in a separate identical div.  I then set it so that the original img would appear at all breakpoints except md, when the longer img would appear instead.
 - I use the github FA icon in a few places, only one of which I want to have a hover effect.  but .fa-github class with a hover selector was causing the other places to change on hover too.  For those that I wanted to remain static, I created a separate class called .github-static with a property of pointer-events: none; ... all fixed!
 - Some blog titles are longer than other, causing the card to be longer too.  I set a min length for the title section (and a min height and max width for the card itself for a little extra precision).
-- 
+
 
 ## Image sizes
 - Blog preview 260x200
 - Project screenshot 500x350
+
